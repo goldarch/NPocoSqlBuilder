@@ -9,7 +9,8 @@ namespace NPocoSqlBuilder
     //NPoco-master\NPoco-master\src\NPoco\SqlBuilder.cs
     //https://github.com/schotime/NPoco/blob/master/src/NPoco/SqlBuilder.cs
     /// <summary>
-    /// 不要缓存sqlBuilder和temp！每次用都新建之，因为子句缓存和替换会带来不确定的因素
+    /// 不要缓存sqlBuilder和temp！
+    /// 每次用都新建之，因为子句缓存和替换会带来不确定的因素
     /// </summary>
     public class SqlBuilder
     {
